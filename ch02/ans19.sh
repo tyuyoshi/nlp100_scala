@@ -1,0 +1,1 @@
+cut -f 1 $1 | sort |uniq -c | sort -n -r -k 1,1
